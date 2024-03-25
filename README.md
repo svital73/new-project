@@ -24,15 +24,16 @@ git push -u origin main
 
 git checkout -b development
 
-git commit -am "1 commit for branch development"
+git add README.md
 
-git push -u origin main
+git commit -m "1 commit for branch development"
+
+git push -u origin development
 
 
+Об'єднайте зміни з гілки "development" у гілку "main".
 
 git checkout main
-
-git branch
 
 git merge development
 
